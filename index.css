@@ -1,0 +1,92 @@
+
+/* font-family: 'Texturina', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.salty{
+    margin-bottom:40px;
+}
+body {
+  font-family: "Texturina", serif;
+  background-image: url("https://images.pexels.com/photos/983373/pexels-photo-983373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  color:white;
+  font-size: 30px;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.gray{
+    transform: 3s ease-in;
+}
+
+.gray:hover{
+    background-color: rgba(12, 12, 12, 0.6);  
+}
+
+p{
+    text-indent: 3rem;
+    margin:25px;
+}
+
+
+h2{
+    margin:20px;
+    font-size:40px;
+}
+li {
+  list-style: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ingredients {
+  font-size: 20px;
+}
+
+nav{
+    background: url("https://i.ibb.co/71JQzmP/pexels-photo-3821692.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius:15px;
+    height:160px;
+}
+
+nav a{
+    border-top:solid #d8b490 40px;
+    margin-top: -153px;
+    border-radius: 15px;
+}
+
+h2{
+    text-align:center;
+}
+
+.hehehe img{
+    height:120px;
+    width:100px;
+    margin:30px;
+}
+
+footer{
+    text-align: center;
+    margin:40px;
+}
+
